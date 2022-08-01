@@ -427,8 +427,13 @@ h3.cardtext {
         position: absolute;
         margin-left: 0px;
         /* min-width: 133px; */
-        max-width: 100px;
-        width: 100px;
+        /* max-width: 100px; */
+        /* width: 100px; */
+        display: flex;
+        /* position: inherit; */
+        margin: auto;
+        position: absolute;
+        padding-left: 0px;
     }
   h2.thirdheading {
     margin-top: 189px;
@@ -477,6 +482,9 @@ button.footerbutton {
     font-weight: 600;
     color: white;
     margin-left: 53px;
+    display: flex;
+    position: relative;
+    margin: auto;
 }
 .greendiv {
     padding: 5px;
@@ -486,9 +494,7 @@ button.footerbutton {
     height: 283px;
     padding-left:0px
 }
-.courses-container{
 
-}
 
 .courses-container .slider-wrapper {
     position: relative;
