@@ -235,8 +235,11 @@ button.footerbutton {
     color: white;
     /* margin-left: 53px; */
     text-align: center;
-    margin-top: 33px;
-    margin-left: 439px;
+   
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: 32px;
 }
 
 .greendiv {
